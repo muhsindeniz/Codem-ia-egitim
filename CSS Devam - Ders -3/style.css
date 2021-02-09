@@ -1,0 +1,51 @@
+body {
+}
+
+.urun-karti {
+    width: 250px;
+    height: 450px;
+    border: solid 1px #ccc;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 60px 2px rgba(194, 25, 87, 1);
+    -moz-box-shadow: 0px 0px 60px 2px rgba(194, 25, 87, 1);
+    box-shadow: 0px 0px 60px 2px rgba(194, 25, 87, 1);
+    padding: 15px;
+}
+
+.urun-karti:hover > .sepete-ekle-button button {
+    cursor: pointer;
+    display: block;
+}
+
+.urun-karti:hover > .urun-fiyati {
+    display: none;
+}
+
+.urun-fiyati {
+    font-weight: bold; /* Yazıyı kalın yapmaya yarar */
+    color: rgb(255, 96, 0);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.sepete-ekle-button button {
+    width: 75%;
+    padding: 12px;
+    color: rgb(255, 96, 0);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 211, 160);
+    border-radius: 6px;
+    display: none;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sepete-ekle-button button:hover {
+    background-color: rgb(240, 203, 135);
+    cursor: pointer;
+}
