@@ -1,0 +1,82 @@
+body{
+    background-color: #eeeeee;
+}
+
+.container{
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: auto;
+    padding: 18px;
+    margin-right: auto;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.user_info{
+    width: 87%;
+    padding: 14px 16px;
+    border: solid 1px #ccc;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.user_info:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+.submit_btn{
+    width: 94%;
+    padding: 12px;
+    border: solid 1px #1877f2;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.submit_btn:hover{
+    cursor: pointer;
+    background-color: #166fe5;
+}
+
+.forgot_pass{
+    color: #1877f2;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot_pass:hover{
+    text-decoration: underline;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.register_btn{
+    width: 64%;
+    padding: 12px;
+    border: solid 1px #42b72a;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.conn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.register_btn:hover{
+    cursor: pointer;
+    background-color: #36a420;
+    border-color: #36a420;
+}

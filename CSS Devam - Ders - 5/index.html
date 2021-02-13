@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    
+  
+      <form action="" method="GET" class="container">
+            <input type="text" class="user_info" id="username" placeholder="Email adress or phone number">
+
+            <input type="password" class="user_info" id="passw" placeholder="Password">
+
+            <input type="submit" class="submit_btn" value="Log In" id="login">
+
+            <div class="forgot_pass">Forgotten password?</div>
+
+            <div class="conn">
+                <input type="button" class="register_btn" id="kayit" value="Create New Account">
+            </div>
+      </form>
+
+      <script>
+
+        //     var sayi1 = 0;
+        //     var sayi2 = 20;
+
+        //     var name = "Muhsin";
+
+        //  for(var i = 0; i < 20; i++){
+            
+        //   }
+
+        // while(sayi1 < 20)
+        //   {
+        //     console.log("Merhaba")
+        //     sayi1++;
+        //   }
+
+       
+
+       var login = document.getElementById("login");
+
+       login.addEventListener('click', function(){
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("passw").value;
+        
+        if(username == "muhsindeniz" && password == "123"){
+            alert("Hoşgeldin Muhsin. Sisteme grişi yapılıyor...")
+        }else{
+            alert("Kullanıcı adı ve şifre yanlış.")
+        }
+
+       })
+
+
+
+      </script>
+
+
+
+</body>
+</html>
