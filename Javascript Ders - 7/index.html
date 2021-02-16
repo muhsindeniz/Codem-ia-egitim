@@ -5,27 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .container{
+            width: 100%;
+            padding: 12px;
+            background-color: #ccc;
+            border-radius: 8px;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
 
-    <div id="data">
+    <div id="data"></div>
 
-    </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
 
         fetch('https://jsonplaceholder.typicode.com/photos')
         .then(response => response.json())
         .then(json => data(json))
         .catch(() => {
-            alert("olmadı")
+            alert("error")
         })
 
         function data(e){
-           var getData =  document.getElementById('data').innerHTML;
-            for(var data = 0; data <= 5000; data++){
-                getData = e[data].title;
-            }
+            var getData =  document.getElementById('data');
+          
+            // for(var data = 0; data <= 5; data++){
+            // //console.log(e[data].title) // Veriyi console da yazdırmak için
+            // //console.table([e[data]]) // Veriyi console da tablo olarak yazdırmak için
+            // //document.write([e[data]]) // Veriyi web dokömanında yazdırmak için
+            // }
+
+            //JQuery İle bir etiket içeriğine yazdırmak için
+
+            e.forEach(element => {
+               $("#data").append(`<div class="container"> ${element.title} </div>`)
+            });
         }
 
     </script>
