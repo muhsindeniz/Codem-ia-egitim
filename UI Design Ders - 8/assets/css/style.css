@@ -1,0 +1,110 @@
+body{
+    background-color: #FF5846;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 350px;
+    height: 450px;
+    margin-top: 100px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+header{
+   text-align: center;
+    color: #e7da21;
+}
+
+header h3 span{
+    color: white;
+}
+
+header h3{
+    margin: 0;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.container main{
+    margin-top: 70%;
+}
+
+.container .login-main{
+    margin-top: 20%;
+}
+
+.giris{
+    background-color: #F8C516;
+    color: #fff;
+}
+
+.form-input label{
+    color: #F8C516;
+}
+
+.form-input input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #fff;
+    padding: 12px;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.forgot{
+    text-align: right;
+    margin: 12px 0;
+}
+
+footer div{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+footer button{
+    width: 45%;
+    padding: 13px;
+    background-color: #fff;
+    border: none;
+    margin-left: 4%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.facebook{
+    color: rgb(21, 76, 180);
+    font-weight: bold;
+    -webkit-box-shadow: 0px 3px 8px 0px rgb(158, 158, 158);
+    -moz-box-shadow: 0px 3px 8px 0px rgb(158, 158, 158);
+    box-shadow: 0px 3px 8px 0px rgb(158, 158, 158);
+}
+
+.google{
+    color: rgb(196, 11, 11);
+    font-weight: bold;
+    -webkit-box-shadow: 0px 1px 8px 0px rgb(158, 158, 158);
+    -moz-box-shadow: 0px 1px 8px 0px rgb(158, 158, 158);
+    box-shadow: 0px 1px 8px 0px rgb(158, 158, 158);
+}
